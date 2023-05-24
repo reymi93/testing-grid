@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+body {
+    background-color:  #232830;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+nav {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    padding: 10px 15px;
+}
+
+h1 {
+    font-family: 'Recursive', sans-serif;
+    font-style: italic;
+    color: #FF7575;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#topic {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 15px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.topic-grid {
+    font-size: 19px;
+    color: #0F1217;
+    font-size: 19px;
+}
+
+.card {
+    background:  #FFFFFF;
+    border: 1px solid #252930;
+    border-radius: 22px;
+}
+
+img {
+    margin: 15px 15px;
+    border-radius: 22px;
+}
+
+.text-grid {
+    color: #0F1217;
+    font-size: 16px;
+}
